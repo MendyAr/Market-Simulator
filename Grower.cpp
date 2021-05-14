@@ -1,7 +1,3 @@
-//
-// Created by ikak on 14/05/2021.
-//
-
 #include <iostream>
 #include "Grower.h"
 
