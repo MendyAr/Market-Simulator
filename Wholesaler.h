@@ -1,7 +1,3 @@
-//
-// Created by ikak on 14/05/2021.
-//
-
 #ifndef OOP_PRINCIPLES_2_WHOLESALER_H
 #define OOP_PRINCIPLES_2_WHOLESALER_H
 
