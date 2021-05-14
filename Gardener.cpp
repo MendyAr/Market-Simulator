@@ -9,5 +9,5 @@ std::string Gardener::getName() {
 
 FlowerBouquet* Gardener::prepareBouquet(std::vector<std::string> flowers) {
     std::cout << getName() << " prepares flowers. " << std::endl;
-    return new FlowerBouquet(flowers, false);
+    return new FlowerBouquet(flowers);
 }

@@ -8,8 +8,8 @@ std::string Grower::getName() {
 }
 
 FlowerBouquet* Grower::prepareOrder(std::vector<std::string> flowers) {
-    std::cout << getName() << " forwards the request to " << gardener.getName() << ". " << std::endl;
-    FlowerBouquet* bouquet = gardener.prepareBouquet(flowers);
-    std::cout << gardener.getName() << " returns flowers to " << getName() << ". " << std::endl;
+    std::cout << getName() << " forwards the request to " << gardener->getName() << ". " << std::endl;
+    FlowerBouquet* bouquet = gardener->prepareBouquet(flowers);
+    std::cout << gardener->getName() << " returns flowers to " << getName() << ". " << std::endl;
     return bouquet;
 }

@@ -1,9 +1,10 @@
-#pragma once
+#ifndef OOP_PRINCIPLES_2_FLORIST_H
+#define OOP_PRINCIPLES_2_FLORIST_H
+
 #include "Person.h"
 #include "Wholesaler.h"
 #include "FlowerArranger.h"
 #include "DeliveryPerson.h"
-#include <iostream>
 
 
 class Florist : public Person{
@@ -17,3 +18,5 @@ public:
     void acceptOrder(Person*, std::vector <std::string>);
     std::string getName();
 };
+
+#endif //OOP_PRINCIPLES_2_FLORIST_H

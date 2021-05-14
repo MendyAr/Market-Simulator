@@ -1,6 +1,5 @@
 #pragma once
 #include "Person.h"
-#include <iostream>
 
 
 class DeliveryPerson : public Person{

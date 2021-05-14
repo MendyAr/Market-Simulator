@@ -12,5 +12,5 @@ void FlowerArranger::arrangeFlowers(FlowerBouquet* bouquet)
 }
 
 std::string FlowerArranger::getName() {
-    return std::string("Flower Arranger ").append(Person.getName());
+    return std::string("Flower Arranger ").append(Person::getName());
 }

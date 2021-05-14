@@ -1,7 +1,7 @@
 #include "FlowerBouquet.h"
 
 //constructor
-FlowerBouquet::FlowerBouquet(std::vector <string> bouquet) : bouquet(bouquet)
+FlowerBouquet::FlowerBouquet(std::vector<std::string> bouquet) : bouquet(bouquet), is_arranged(false)
 {}
 
 
@@ -16,6 +16,6 @@ std::string FlowerBouquet::toString() {
         fb.append(flower + ", ");
     }
     if(!fb.empty())
-        fb.erase(fb.length()-2, fb.length()-1)
+        fb.erase(fb.length()-2, fb.length()-1);
     return fb;
 }

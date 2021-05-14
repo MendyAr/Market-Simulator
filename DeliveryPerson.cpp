@@ -1,12 +1,12 @@
 #include "DeliveryPerson.h"
 
+DeliveryPerson::DeliveryPerson(std::string name) : Person(name){}
 
-void DeliveryPerson::deliver(Person* addressee, FlowersBouquet* bouquet) {
-    delivers flowers Robin.
-    std::cout<< getName() + " delivers flowers " + addressee.getName() + "." << std::endl;
-    Person->acceptFlowers(bouquet);
+std::string DeliveryPerson::getName() {
+    return "Delivery Person " + Person::getName();
 }
 
-std::string getName(){
-    return std::string("Delivery Person ").append(Person.getName());
+void DeliveryPerson::deliver(Person* addressee, FlowerBouquet* bouquet) {
+    std::cout<< getName() + " delivers flowers " + addressee->getName() + "." << std::endl;
+    addressee->acceptFlowers(bouquet);
 }
