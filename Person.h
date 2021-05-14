@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 
+class Florist;
+
 class Person {
 protected:
     std::string name;
