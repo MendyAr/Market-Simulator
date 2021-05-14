@@ -3,4 +3,4 @@ project(OOP_Principles_2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OOP_Principles_2 main.cpp Person.cpp Person.h)
+add_executable(OOP_Principles_2 main.cpp Person.cpp Person.h Wholesaler.cpp Wholesaler.h)
